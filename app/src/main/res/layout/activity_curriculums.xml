@@ -6,4 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".Curriculums">
 
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/txtBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/txtPrepa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparatoria"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/txtUni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unviversidad"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/txtIngles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingles"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/txtSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habilidades"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pa'tras"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="624dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
