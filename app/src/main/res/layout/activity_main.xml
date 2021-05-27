@@ -9,7 +9,7 @@
     android:soundEffectsEnabled="true"
     tools:context=".MainActivity">
 
-    <EditView
+    <TextView
         android:id="@+id/textView"
         android:layout_width="201dp"
         android:layout_height="42dp"
@@ -17,7 +17,7 @@
         android:layout_marginTop="28dp"
         android:background="#6A17EB"
         android:clickable="false"
-        android:text="Curriculums"
+        android:text="Cosa"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
