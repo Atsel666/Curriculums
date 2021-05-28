@@ -57,7 +57,7 @@ public class Axel extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e("weather-request-error,",error.getMessage());
+                Log.e("server-request-error,",error.getMessage());
             }
         });
         queue.add(sr);
