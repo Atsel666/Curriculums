@@ -34,7 +34,7 @@ public class Axel extends AppCompatActivity {
         //Button btnBackL = findViewById(R.id.btnBackA);
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://localhost:8888/329830";
+        String url = "http://1bbfd736ae81.ngrok.io/329830";
 
         StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override

@@ -34,7 +34,7 @@ public class Maritrini extends AppCompatActivity {
         //Button btnBackM = findViewById(R.id.btnBackM);
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url="http://localhost:8888/329675";
+        String url="http://1bbfd736ae81.ngrok.io/329675";
 
         StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
