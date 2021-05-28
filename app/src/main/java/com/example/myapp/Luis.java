@@ -34,7 +34,7 @@ public class Luis extends AppCompatActivity {
         //Button btnBackL = findViewById(R.id.btnBackL);
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://1bbfd736ae81.ngrok.io/329630";
+        String url ="https://servidor-matriculas.herokuapp.com/329630";
 
         StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
