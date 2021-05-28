@@ -31,10 +31,10 @@ public class Maritrini extends AppCompatActivity {
         TextView txtUni = findViewById(R.id.textUniM);
         TextView txtIngles = findViewById(R.id.textInglesM);
         TextView txtSkills = findViewById(R.id.textSkillsM);
-        Button btnBack = findViewById(R.id.btnBackM);
+        //Button btnBackM = findViewById(R.id.btnBackM);
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url;
+        String url="http://localhost:8888/329675";
 
         StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
@@ -46,12 +46,12 @@ public class Maritrini extends AppCompatActivity {
                 txtUni.setText(cv.uni);
                 txtIngles.setText(cv.ingles);
                 txtSkills.setText(cv.Skills);
-                btnBack.setOnClickListener(new View.OnClickListener() {
+                /*btnBackM.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         startActivity(new Intent(Maritrini.this, MainActivity.class));
                     }
-                });
+                });*/
 
             }
         }, new Response.ErrorListener() {

@@ -31,10 +31,10 @@ public class Luis extends AppCompatActivity {
         TextView txtUni = findViewById(R.id.textUniL);
         TextView txtIngles = findViewById(R.id.textInglesL);
         TextView txtSkills = findViewById(R.id.textSkillsL);
-        Button btnBack = findViewById(R.id.btnBackL);
+        //Button btnBackL = findViewById(R.id.btnBackL);
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url;
+        String url ="http://localhost:8888/329630";
 
         StringRequest sr = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
@@ -46,12 +46,12 @@ public class Luis extends AppCompatActivity {
                 txtUni.setText(cv.uni);
                 txtIngles.setText(cv.ingles);
                 txtSkills.setText(cv.Skills);
-                btnBack.setOnClickListener(new View.OnClickListener() {
+                /*btnBackL.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         startActivity(new Intent(Luis.this, MainActivity.class));
                     }
-                });
+                });*/
 
             }
         }, new Response.ErrorListener() {

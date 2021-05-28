@@ -6,13 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Maritrini">
 
-    <Button
-        android:id="@+id/btnBackM"
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="pa'tras"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="634dp" />
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/textNameM"
@@ -20,8 +17,10 @@
         android:layout_height="wrap_content"
         android:text="Nombre"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="38dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="39dp" />
 
     <TextView
         android:id="@+id/textBioM"
@@ -29,42 +28,63 @@
         android:layout_height="wrap_content"
         android:text="Bio"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
 
     <TextView
         android:id="@+id/textPrepaM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preparatoria"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="257dp" />
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
 
     <TextView
         android:id="@+id/textUniM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Universidad"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="257dp" />
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
 
     <TextView
         android:id="@+id/textInglesM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Inglés"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="379dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" />
 
     <TextView
         android:id="@+id/textSkillsM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Habilidades"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="506dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
