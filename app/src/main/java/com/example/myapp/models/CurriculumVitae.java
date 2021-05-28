@@ -6,5 +6,5 @@ public class CurriculumVitae {
     public String prepa;
     public String uni;
     public String ingles;
-    public  String Skills;
+    public String Skills;
 }
